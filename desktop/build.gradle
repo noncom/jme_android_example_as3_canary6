@@ -1,2 +1,6 @@
 apply plugin: "java"
 sourceSets.main.java.srcDirs = ["src/main/java"]
+
+dependencies {
+    compile files("../app/assets")
+}
